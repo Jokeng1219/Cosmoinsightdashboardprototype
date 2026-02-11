@@ -1,7 +1,5 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { User } from 'lucide-react';
-import imgImageAvatar from "figma:asset/47fba8fe00506fcec69e898ee1ff74a8660b0c46.png";
 
 export const Header = () => {
   return (
@@ -9,13 +7,13 @@ export const Header = () => {
       <h1 className="text-lg font-bold text-white tracking-wide">
         Cosmo的洞察總覽
       </h1>
-      <motion.div 
+      <motion.div
         className="relative flex items-center justify-center w-[40px] h-[40px] rounded-full"
         whileTap={{ scale: 0.95 }}
       >
         <div aria-hidden="true" className="absolute inset-0 border-2 border-[#ff7800] rounded-full pointer-events-none" />
-        <div className="w-[32px] h-[32px] rounded-full overflow-hidden">
-             <img src={imgImageAvatar} alt="Cosmo Yang" className="w-full h-full object-cover" />
+        <div className="w-[32px] h-[32px] rounded-full overflow-hidden bg-[#333333] flex items-center justify-center">
+          <span className="text-white text-sm font-bold">C</span>
         </div>
       </motion.div>
     </header>
