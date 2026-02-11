@@ -2,6 +2,7 @@ import React from 'react';
 import { Drawer } from 'vaul';
 import { Send, ArrowDown } from 'lucide-react';
 import CopilotLogo from '../../../imports/Container-6-1212';
+import imgImageAvatar from "figma:asset/47fba8fe00506fcec69e898ee1ff74a8660b0c46.png";
 
 export default function AICoachSheet() {
   return (
@@ -40,8 +41,12 @@ export default function AICoachSheet() {
               對啊，工程那邊一直說資源不足，但我看他們都在忙別的 Refactor。
             </p>
           </div>
-          <div className="w-[32px] h-[32px] rounded-full overflow-hidden shrink-0 border border-[#333333] bg-[#333333] flex items-center justify-center">
-            <span className="text-white text-xs font-bold">C</span>
+          <div className="w-[32px] h-[32px] rounded-full overflow-hidden shrink-0 border border-[#333333]">
+            <img 
+              src={imgImageAvatar}
+              alt="User" 
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 

@@ -1,7 +1,9 @@
+import imgImageAvatar from "figma:asset/47fba8fe00506fcec69e898ee1ff74a8660b0c46.png";
+
 function ImageAvatar() {
   return (
-    <div className="h-[32px] relative rounded-[16777200px] shrink-0 w-full bg-[#333333] flex items-center justify-center" data-name="Image (Avatar)">
-      <span className="text-white text-sm font-bold">C</span>
+    <div className="h-[32px] relative rounded-[16777200px] shrink-0 w-full" data-name="Image (Avatar)">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16777200px] size-full" src={imgImageAvatar} />
     </div>
   );
 }
