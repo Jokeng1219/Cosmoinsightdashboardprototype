@@ -144,7 +144,7 @@ export const MarketValueChart = () => {
       <div className="flex justify-between items-start mb-6">
         <div className="flex flex-col gap-1">
           <h3 className="font-bold text-white text-[20px]">薪資競爭力</h3>
-          <p className="text-[#999999] text-[12px]">了解你的薪水行情是否合理</p>
+          <p className="text-[13px] text-[#c5c5c5]">了解你的薪水行情是否合理</p>
         </div>
         <motion.div
           className="px-3 py-1 rounded-full bg-red-500/10 border border-red-500/30 font-bold shadow-[0_0_15px_rgba(239,68,68,0.3)] animate-pulse text-[13px] text-[#ff2c2e]"

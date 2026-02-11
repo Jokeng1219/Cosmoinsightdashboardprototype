@@ -22,7 +22,7 @@ export const IdentityCard = () => {
             <div className="bg-[#51361e] px-3 py-1 rounded-full flex items-center justify-center">
               <span className="text-[#ff7800] text-[12px] font-bold leading-none">目標</span>
             </div>
-            <p className="text-[#bfbfbf] text-[12px] font-normal leading-none">
+            <p className="text-[#bfbfbf] font-normal leading-none text-[13px]">
               產品企劃主管｜5年內達到年薪 150 萬
             </p>
           </div>

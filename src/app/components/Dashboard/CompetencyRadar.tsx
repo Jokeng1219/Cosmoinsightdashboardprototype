@@ -69,7 +69,7 @@ export const CompetencyRadar = () => {
       <div className="mb-4 flex justify-between items-start">
         <div className="flex flex-col gap-1">
           <h3 className="font-bold text-white text-[20px]">職能戰力</h3>
-          <p className="text-[#999999] text-[12px]">透過專業測驗了解你的技能程度</p>
+          <p className="text-[13px] text-[#c5c5c5]">透過專業測驗了解你的技能程度</p>
         </div>
         <span className="font-medium text-[#FF7800] bg-[#FF7800]/10 px-2 py-1 rounded text-[13px]">
           等級 B → 目標 B+

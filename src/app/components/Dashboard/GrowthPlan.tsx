@@ -46,7 +46,7 @@ export const GrowthPlan = () => {
       <div className="flex items-start gap-2 mb-6">
         <div className="flex flex-col gap-1">
            <h3 className="font-bold text-white text-[20px]">轉職推薦</h3>
-           <p className="text-[#999999] text-[12px]">AI推薦你適合的職涯路徑</p>
+           <p className="text-[13px] text-[#c5c5c5]">AI推薦你適合的職涯路徑</p>
         </div>
       </div>
 
